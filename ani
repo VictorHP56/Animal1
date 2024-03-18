@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Meu Gato</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Gato</h1>
+    </header>
+    <div class="container">
+        <img src="caminho_para_a_imagem_do_seu_gato.jpg" alt="Meu Gato">
+        <h2>Dados do Gato</h2>
+        <p><strong>Nome:</strong> Miau</p>
+        <p><strong>Idade:</strong> 3 anos</p>
+        <p><strong>Raça:</strong> Siamesa</p>
+        <p><strong>Cor:</strong> Branco e marrom</p>
+        <p><strong>Personalidade:</strong> Miau é muito brincalhão e adora caçar bolinhas de papel.</p>
+        <p><strong>Alimentação:</strong> Ele come ração específica para gatos duas vezes ao dia.</p>
+        <p><strong>Cuidados de Saúde:</strong> Miau é vacinado anualmente e faz visitas regulares ao veterinário.</p>
+    </div>
+</body>
+</html>
